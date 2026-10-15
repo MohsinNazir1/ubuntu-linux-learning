@@ -1,0 +1,32 @@
+Script started on 2026-10-15 03:17:44+00:00 [TERM="dumb" TTY="/dev/pts/0" COLUMNS="230" LINES="44"]
+mohsinazir@Ubantu:~$ pwd
+/home/mohsinazir
+mohsinazir@Ubantu:~$ ls
+Desktop	 Documents  Downloads  Music  Pictures	Public	Templates  Videos  ospractice  snap  ubantufile
+mohsinazir@Ubantu:~$ cd desktop
+bash: cd: desktop: No such file or directory
+mohsinazir@Ubantu:~$ cd Desktop 
+mohsinazir@Ubantu:~/Desktop$ cd ..
+mohsinazir@Ubantu:~$ ls
+Desktop	 Documents  Downloads  Music  Pictures	Public	Templates  Videos  ospractice  snap  ubantufile
+mohsinazir@Ubantu:~$ cd ubantu        /home  /mohsinazir/ospractice
+mohsinazir@Ubantu:~/ospractice$ ls
+osfile
+mohsinazir@Ubantu:~/ospractice$ cat osfile
+ubantu learning phase
+mohsinazir@Ubantu:~/ospractice$ echo "this is my ubantu file  " > osfile
+mohsinazir@Ubantu:~/ospractice$ ls 
+osfile
+mohsinazir@Ubantu:~/ospractice$ cat osfo ile
+this is my ubantu file
+mohsinazir@Ubantu:~/ospractice$ mv ocfile       sfie OSFILE
+mv: cannot stat 'osfie': No such file or directory
+mohsinazir@Ubantu:~/ospractice$ MV ODFILE         mv od sfile OSFILE
+mohsinazir@Ubantu:~/ospractice$ LS
+LS: command not found
+mohsinazir@Ubantu:~/ospractice$ ls
+OSFILE
+mohsinazir@Ubantu:~/ospractice$ exit
+exit
+
+Script done on 2026-10-15 03:21:45+00:00 [COMMAND_EXIT_CODE="0"]
